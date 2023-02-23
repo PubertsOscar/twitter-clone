@@ -3,14 +3,7 @@ import "../componentsCSS/Widgets.css";
 import {
   TwitterTimelineEmbed,
   TwitterShareButton,
-  TwitterFollowButton,
-  TwitterHashtagButton,
-  TwitterMentionButton,
   TwitterTweetEmbed,
-  TwitterMomentShare,
-  TwitterDMButton,
-  TwitterVideoEmbed,
-  TwitterOnAirButton,
 } from "react-twitter-embed";
 import { Search } from "@mui/icons-material";
 
@@ -25,17 +18,16 @@ function Widgets() {
       <div className="widgets__container">
         <h2>What's happening</h2>
 
-        <TwitterTweetEmbed tweetId={"858551177860055040"} />
-
+        <TwitterTweetEmbed tweetId={"1586441477952921600"} />
         <TwitterTimelineEmbed
           sourceType="profile"
-          screenName="cleverqazi"
+          screenName="AlexHormozi"
           options={{ height: 400 }}
         />
 
         <TwitterShareButton
-          url={"https://facebook.com/cleverprogrammer"}
-          options={{ text: "#reactjs is awesome", via: "cleverqazi" }}
+          url={"https://www.linkedin.com/in/oscar-esquivel-495bb5241/"}
+          options={{ text: "#reactjs is awesome", via: "" }}
         />
       </div>
     </div>

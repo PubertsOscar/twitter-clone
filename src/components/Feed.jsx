@@ -27,9 +27,9 @@ function Feed() {
       {posts.map((post) => (
         <Post
         key={post.id}
-          displayName={post.displayname}
+          displayName={post.displayName}
           username={post.username}
-          verifed={post.verifed}
+          verified={post.verifed}
           text={post.text}
           avatar={post.avatar}
           image={post.image}
